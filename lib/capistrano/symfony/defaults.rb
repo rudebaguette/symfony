@@ -2,7 +2,7 @@
 set :symfony_env_prod,  "prod"
 
 # Symfony application path
-set :sub_path,              "RemindMeSf"
+set :sub_path,              "RemindMeSf/"
 
 # Symfony application path
 set :app_path,              fetch(:sub_path) + "app"
