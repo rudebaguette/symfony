@@ -2,10 +2,13 @@
 set :symfony_env_prod,  "prod"
 
 # Symfony application path
-set :app_path,              "app"
+set :sub_path,              "RemindMeSf"
+
+# Symfony application path
+set :app_path,              fetch(:sub_path) + "app"
 
 # Symfony web path
-set :web_path,              "web"
+set :web_path,              fetch(:sub_path) + "web"
 
 # Symfony log path
 set :log_path,              fetch(:app_path) + "/logs"
