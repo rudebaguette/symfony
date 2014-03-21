@@ -44,7 +44,7 @@ namespace :deploy do
   end
 
   task :updated do
-    invoke "deploy:build_bootstrap"
+    # invoke "deploy:build_bootstrap"
     invoke "symfony:cache:warmup"
   end
 
