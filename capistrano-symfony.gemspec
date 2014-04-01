@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
   gem.licenses      = ['MIT']
 
   gem.add_dependency 'capistrano', '~> 3.1'
-  gem.add_dependency 'capistrano-composer', '~> 0.0.3'
+  gem.add_dependency 'capistrano-composer', '~> 0.0.4'
   gem.add_dependency 'capistrano-file-permissions', '~> 0.1.0'
 end
